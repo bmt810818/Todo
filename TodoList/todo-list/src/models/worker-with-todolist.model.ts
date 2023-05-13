@@ -23,7 +23,6 @@ export class WorkerWithTodolist extends Entity {
     super(data);
   }
 }
-
 export interface WorkerWithTodolistRelations {
   // describe navigational properties here
 }

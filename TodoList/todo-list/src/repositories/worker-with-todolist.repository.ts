@@ -9,7 +9,8 @@ export class WorkerWithTodolistRepository extends DefaultCrudRepository<
   WorkerWithTodolistRelations
 > {
   constructor(
-    @inject('datasources.db') dataSource: DbDataSource,
+    @inject('datasources.db') 
+    dataSource: DbDataSource,
   ) {
     super(WorkerWithTodolist, dataSource);
   }

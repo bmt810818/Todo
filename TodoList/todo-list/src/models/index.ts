@@ -3,3 +3,7 @@ export * from './todo-list.model';
 export * from './todo-list-image.model';
 export * from './worker.model';
 export * from './worker-with-todolist.model';
+export * from './account.model';
+export * from './user.model';
+export * from './change-pass-word.model';
+export * from './login.model';

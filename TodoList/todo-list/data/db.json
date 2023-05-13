@@ -1,18 +1,31 @@
 {
-    "ids": {
-      "Todo": 5,
-      "TodoList": 3
+  "ids": {
+    "Todo": 5,
+    "User": 11,
+    "UserCredentials": 7
+  },
+  "models": {
+    "Todo": {
+      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"id\":1}",
+      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2}",
+      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
+      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}"
     },
-    "models": {
-      "Todo": {
-        "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"todoListId\":1,\"id\":1}",
-        "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"todoListId\":1,\"id\":2}",
-        "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"todoListId\":2,\"id\":3}",
-        "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"todoListId\":1,\"id\":4}"
-      },
-      "TodoList": {
-        "1": "{\"title\":\"Sith lord's check list\",\"color\":\"blue\",\"id\":1}",
-        "2": "{\"title\":\"My daily chores\",\"color\":\"red\",\"id\":2}"
-      }
+    "User": {
+      "4": "{\"username\":\"testuser1\",\"email\":\"testuser1@abc.com\",\"id\":4}",
+      "7": "{\"id\":\"7\",\"realm\":\"\",\"username\":\"toan\",\"email\":\"bmt@gmail.com\",\"emailVerified\":true,\"verificationToken\":\"aaaaaaaaa.aaaaaaaaaaaaaaaaa\"}",
+      "8": "{\"id\":\"8\",\"realm\":\"\",\"username\":\"toan\",\"email\":\"bmt@gmail.com\",\"emailVerified\":true,\"verificationToken\":\"aaaaaaaaa.aaaaaaaaaaaaaaaaa\"}",
+      "9": "{\"id\":\"9\",\"realm\":\"\",\"username\":\"tatthanh\",\"email\":\"bmt.cntt@gmail.com\",\"emailVerified\":true,\"verificationToken\":\"aaaaaaaaa.aaaaaaaaaaaaaaaaa\"}",
+      "string": "{\"id\":\"string\",\"realm\":\"string\",\"username\":\"string\",\"email\":\"string\",\"emailVerified\":true,\"verificationToken\":\"string\",\"additionalProp1\":{}}",
+      "3126773f-8b58-4aad-b793-db84d4599b24": "{\"id\":\"3126773f-8b58-4aad-b793-db84d4599b24\",\"email\":\"abc@gmail.com\"}"
+    },
+    "UserCredentials": {
+      "1": "{\"password\":\"$2a$10$QrcA7GDOZ06TTXEBhuz87On8mcapb9qoU3rjWb7Z5pwBv7ZAbmXwa\",\"userId\":4,\"id\":1}",
+      "15a139d0-c8d2-4ab7-a0ab-8fce0b4f16bd": "{\"id\":\"15a139d0-c8d2-4ab7-a0ab-8fce0b4f16bd\",\"password\":\"$2a$10$1v0BsjhH9x8xEDGYuMVK.uAKmp6M8PGDZgAI/R95/Mslu2Vr9ls/y\",\"userId\":\"string\"}",
+      "c15bd0cd-985c-49a3-bf58-8fc6b99ee2f6": "{\"id\":\"c15bd0cd-985c-49a3-bf58-8fc6b99ee2f6\",\"password\":\"$2a$10$R6jJiomqoFLdC85jw.SItuC/0G4KfSpHsD1Yz.BIBtZExUmr7Bjbq\",\"userId\":\"7\"}",
+      "6d7faaa2-c297-4020-8646-2633da78077c": "{\"id\":\"6d7faaa2-c297-4020-8646-2633da78077c\",\"password\":\"$2a$10$iKEiNAzOMbpAUjdBQoru6.goJw3BlYaELkBvdMzqXS0kFMOeNJOW6\",\"userId\":\"8\"}",
+      "ce2b34d9-85fb-4881-b4a9-0411db00ddfa": "{\"id\":\"ce2b34d9-85fb-4881-b4a9-0411db00ddfa\",\"password\":\"$2a$10$miIREB9PHTRNwQlvNwVQhu7Vf3MHAJFBo55bCi83tjTTfoWIi8QTy\",\"userId\":\"9\"}",
+      "bf132427-5f61-47a3-b6b6-806d5bf3991d": "{\"id\":\"bf132427-5f61-47a3-b6b6-806d5bf3991d\",\"password\":\"$2a$10$azyZyDLKb7LhNc.5YOZmpOQnO2pCd8xU.fAA/ZKF6a6k28FowyL/W\",\"userId\":\"3126773f-8b58-4aad-b793-db84d4599b24\"}"
     }
   }
+}

@@ -10,13 +10,25 @@ export class TodoListImageRepository extends DefaultCrudRepository<
   TodoListImageRelations
 > {
 
-  public readonly todoList: BelongsToAccessor<TodoList, typeof TodoListImage.prototype.id>;
+  public readonly todoList: BelongsToAccessor<
+  TodoList, 
+  typeof TodoListImage.prototype.id
+  >;
 
   constructor(
-    @inject('datasources.db') dataSource: DbDataSource, @repository.getter('TodoListRepository') protected todoListRepositoryGetter: Getter<TodoListRepository>,
+    @inject('datasources.db') 
+    dataSource: DbDataSource, 
+    @repository.getter('TodoListRepository') 
+    protected todoListRepositoryGetter: Getter<TodoListRepository>,
   ) {
     super(TodoListImage, dataSource);
-    this.todoList = this.createBelongsToAccessorFor('todoList', todoListRepositoryGetter,);
-    this.registerInclusionResolver('todoList', this.todoList.inclusionResolver);
+    this.todoList = this.createBelongsToAccessorFor(
+      'todoList', 
+      todoListRepositoryGetter,
+    );
+    this.registerInclusionResolver(
+      'todoList', 
+      this.todoList.inclusionResolver
+    );
   }
 }

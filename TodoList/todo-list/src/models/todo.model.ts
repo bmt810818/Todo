@@ -33,7 +33,6 @@ export class Todo extends Entity {
     super(data);
   }
 }
-
 export interface TodoRelations {
   // describe navigational properties here
 }
